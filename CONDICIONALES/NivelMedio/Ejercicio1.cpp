@@ -13,22 +13,23 @@ cout << "Bienvenido al programa para detectar tu edad" << endl;
 cout << "Por favor ingresa tu edad" << endl;
 cin >> edad;
 
-if (edad <0)
+if (edad <0 || edad >100) 
+// Ese signo significa "O".
 {
-cout << "Usted tiene : " << edad << " años. Por lo que su edad no es valida" << endl ;
+cout << "Usted tiene : " << edad << ". Por lo que su edad no es valida" << endl ;
 
 }
 
 else if (edad <18)
 {
 
-cout << "Usted tiene :" << edad << " años. Por lo que es menor de edad" << endl;
+cout << "Usted tiene :" << edad << ". Por lo que es menor de edad" << endl;
 
 }
 
 else {
 
-cout << "Usted tiene :" << edad << " años. Por lo que es mayor de edad" << endl;
+cout << "Usted tiene :" << edad << ". Por lo que es mayor de edad" << endl;
 
 }
 
