@@ -11,14 +11,17 @@ int main() {
     cout << "Ingrese un numero a partir de 1" << endl;
 cin >> n;
 
-if (n<1 || n>100)
+if (n % 2 == !0)
 {
 cout <<"Datos invalidos" << endl;
 
 }
 
-else (n % 2 == 0);
+else if (n % 2 == 0) 
 {
+
+
+
 
 while(n % 2 == 0){
 cout << "Puede seguir ingresando datos" << endl;
@@ -27,12 +30,16 @@ cin >> n;
 
 
 
-
 }
 
-}
 
 cout <<"La sumatoria de sus numeros es" << suma << endl;
+
+}
+
+
+
+
 
     return 0;
 }
@@ -40,3 +47,4 @@ cout <<"La sumatoria de sus numeros es" << suma << endl;
 
 
 //5,7,2,4,13
+// hecho
