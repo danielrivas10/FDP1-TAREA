@@ -56,7 +56,7 @@ else if (!tieneLicencia) {
     cout << "Sin licencia: ilegal" << endl;
         } 
         
-   
+
 else if (edad >= 18 && edad <= 80 && infracciones == 0 && experiencia >= 1) {
         cout << "Buen conductor" << endl;
     }
