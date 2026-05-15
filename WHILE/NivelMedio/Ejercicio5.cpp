@@ -8,22 +8,27 @@ int main() {
     int n, suma=1;
 
     cout << "Bienvenido usuario" << endl;
-    cout << "Ingrese un numero a partir de 1" << endl;
+    cout << "Ingrese un numero par" << endl;
 cin >> n;
 
-if (n % 2 == !0)
+
+if (n<0){
+cout <<"Error" << endl;
+}
+
+else if (n % 2 == !0)
 {
 cout <<"Datos invalidos" << endl;
 
 }
 
-else if (n % 2 == 0) 
+else  
 {
 
 
 
 
-while(n % 2 == 0){
+while(n % 2 == 0 && n>=0){
 cout << "Puede seguir ingresando datos" << endl;
 suma= suma+ n;
 cin >> n;
@@ -32,10 +37,14 @@ cin >> n;
 
 }
 
-
-cout <<"La sumatoria de sus numeros es" << suma << endl;
-
 }
+
+
+
+
+cout <<"La sumatoria de sus numeros es " <<  suma << endl;
+
+
 
 
 
