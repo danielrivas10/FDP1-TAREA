@@ -8,7 +8,7 @@ int main  ()
 
 int secuencia=0 , x=1, siguiente; //Ayudará a guardar los datos de las dos variables
 
-cout << "Buenos dias usuario" << endl;
+cout << "Hola usuario" << endl;
 cout <<"Este codigo es para mostrar una secuencia de numeros llamada: Serie de fibonacci" << endl;
 
 while (secuencia<=50){
