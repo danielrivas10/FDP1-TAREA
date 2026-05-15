@@ -12,7 +12,7 @@ int main() {
 cin >> n;
 
 
-if (n<0){
+if (n<=0){
 cout <<"Error" << endl;
 }
 
