@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-    int n, suma=1;
+    int n, suma=0;
 
     cout << "Bienvenido usuario" << endl;
     cout << "Ingrese un numero par" << endl;
