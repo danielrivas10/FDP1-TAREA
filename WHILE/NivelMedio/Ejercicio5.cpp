@@ -1,59 +1,42 @@
-//Suma de Números Pares
-//Pide un número N al usuario y usa while para calcular la suma de los números pares desde 1 hasta N.
+// Suma de Números Pares
+// Pide un número N al usuario y usa while para calcular la suma de los números pares desde 1 hasta N.
 
 #include <iostream>
 using namespace std;
 
-int main() {
-    int n, suma=0;
+int main()
+{
+    int n, suma = 0;
 
     cout << "Bienvenido usuario" << endl;
     cout << "Ingrese un numero par" << endl;
-cin >> n;
+    cin >> n;
 
+    if (n <= 0)
+    {
+        cout << "Error" << endl;
+    }
 
-if (n<=0){
-cout <<"Error" << endl;
-}
+    else if (n % 2 == !0)
+    {
+        cout << "Datos invalidos" << endl;
+    }
 
-else if (n % 2 == !0)
-{
-cout <<"Datos invalidos" << endl;
+    else
+    {
 
-}
+        while (n % 2 == 0 && n >= 0)
+        {
+            cout << "Puede seguir ingresando datos" << endl;
+            suma = suma + n;
+            cin >> n;
+        }
+    }
 
-else  
-{
-
-
-
-
-while(n % 2 == 0 && n>=0){
-cout << "Puede seguir ingresando datos" << endl;
-suma= suma+ n;
-cin >> n;
-
-
-
-}
-
-}
-
-
-
-
-cout <<"La sumatoria de sus numeros es " <<  suma << endl;
-
-
-
-
-
-
+    cout << "La sumatoria de sus numeros es " << suma << endl;
 
     return 0;
 }
 
-
-
-//5,7,2,4,13
-// hecho
+// 5,7,2,4,13
+//  hecho

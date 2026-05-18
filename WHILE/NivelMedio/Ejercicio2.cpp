@@ -12,14 +12,14 @@ int main()
     cout << "Ingrese un numero" << endl;
     cin >> n;
 
-    if (n == 0)
+    if (n == -1)
     {
         cout << "Fin del ciclo" << endl;
     }
 
     else (n!=0);
     {
-        while (n!=0){
+        while (n!=-1){
         cout <<"Puede seguir ingresando datos" << endl;
         sum= sum + n;
         cin >> n;
