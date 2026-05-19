@@ -1,0 +1,2 @@
+//Triángulo de Asteriscos
+//Imprime un triángulo de altura N usando *.
